@@ -302,9 +302,5 @@ for v in Y:
 ##### Where v represents the query vector and n represents the number of nearest neighbors returned
 
 ## 3. **Team members**
-The team members come from HWTL and SDU. 
-
-HWTL: Weipeng Jiang, Wei Han, Bo Bai
-
-SDU: Kun Wang, Zixu Li, Zhiwei Chen, Shanzhi Li, Yupeng Hu, Liqiang Nie
+The team members come from 01AI: Xiaoming Peng, Gaofei Wang
 
