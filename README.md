@@ -22,7 +22,7 @@
 
 ### 2.1 Data load
 
-### 2.2 Build Index (Divided into AKNNG, SG, QSG three stages)
+### 2.2 Build Index (Divided into FNG, QG)
 
 #### 2.2.1 Build FNG
 
