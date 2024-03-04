@@ -36,15 +36,40 @@ pip3 install descartes/py01ai-*-linux_x86_64.whl
 
 ## 2. **Usage**
 
+```python
+python3 descartes.py
+```
+
 ### The following describes the algorithm execution logic of descartes.py in steps
 
 ### 2.1 Data load
+#### Method 1: Randomly generate data
 
-### 2.2 Build Index (Divided into FNG, QG)
+```python
+n, d = 10000, 128
+X = np.random.randn(n, d)
+```
 
-#### 2.2.1 Build FNG
+#### Method 2: Load data from dataset (sift_base.fvecs as an example)
 
-#### 2.2.3 Build QG
+```python
+def ivecs_read(fname):
+    a = np.fromfile(fname, dtype='int32')
+    d = a[0]
+    return a.reshape(-1, d + 1)[:, 1:].copy()
+def fvecs_read(fname):
+    return ivecs_read(fname).view('float32')
+
+X = fvecs_read("sift_base.fvecs")
+```
+
+### 2.2 Build Index
+
+```python
+self.index = ngtpy.QuantizedIndex(index, self._max_edge_size)
+self.index.set_with_distance(False)
+self.indexName = index
+```
 
 
 ### 2.3 Search
