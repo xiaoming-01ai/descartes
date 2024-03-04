@@ -9,6 +9,7 @@
 ## 1. **Installation**
 
 ### 1.1 Configure environment dependencies (recommended in the Docker container created by the Ubuntu image)
+ ''' sudo apt update && sudo apt install -y git cmake g++ python3 python3-setuptools python3-pip libblas-dev liblapack-dev '''
 
 ### 1.2 Download code
 
