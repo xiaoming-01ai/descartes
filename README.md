@@ -66,13 +66,16 @@ X = fvecs_read("sift_base.fvecs")
 ### 2.2 Build Index
 
 ```python
-self.index = ngtpy.QuantizedIndex(index, self._max_edge_size)
-self.index.set_with_distance(False)
-self.indexName = index
+index = py01ai.FNGIndex(metric="square_l2", dimension=dimension))
+index.init(count=1000000, M=32, S=1, L=200)
+index.add_vector(X)
 ```
 
-
 ### 2.3 Search
+'''python
+v = np.random.randn(1, 128)
+index.search(query=v, topk=10)
+'''
 
 ## 3. **Team members**
 The team members come from 01AI: Xiaoming Peng, Gaofei Wang
