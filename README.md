@@ -72,11 +72,11 @@ index.add_vector(X)
 ```
 
 ### 2.3 Search
-'''python
+```python
 v = np.random.randn(1, 128)
 results = index.search(query=v, topk=10)
 print(results)
-'''
+```
 
 ## 3. **Team members**
 The team members come from 01AI: Xiaoming Peng, Gaofei Wang
