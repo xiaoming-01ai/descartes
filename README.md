@@ -23,6 +23,7 @@ git clone https://github.com/xiaoming-01ai/descartes.git
 
 ```bash
 sudo cp descartes/lib/* /usr/local/lib/
+sudo chmod a+x descartes/*
 ```
 
 ### 1.4 Configuration & installation
