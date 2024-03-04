@@ -23,7 +23,6 @@ git clone https://github.com/xiaoming-01ai/descartes.git
 
 ```bash
 sudo cp descartes/lib/* /usr/local/lib/
-sudo cp descartes/bin/* /usr/local/bin/
 sudo chmod a+x /usr/local/bin/* && chmod a+x descartes/*
 ```
 
