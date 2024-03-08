@@ -22,7 +22,7 @@ git clone https://github.com/xiaoming-01ai/descartes.git
 ### 1.3 Configuration & installation
 
 ```bash
-pip3 install descartes/py01ai-*-linux_x86_64.whl
+pip3 install descartes/descartes-*-linux_x86_64.whl
 ```
 
 ## 2. **Usage**
