@@ -70,10 +70,26 @@ print(results)
 ```
 
 ## 3. **Performance**
+
+glove-25-angular
+-----------------
+![glove-25-angular](https://github.com/xiaoming-01ai/descartes/blob/main/results/glove-25-angular_10_angular.png)
+
+glove-50-angular
+-----------------
+![glove-50-angular](https://github.com/xiaoming-01ai/descartes/blob/main/results/glove-50-angular_10_angular.png)
+
 glove-100-angular
 -----------------
-
 ![glove-100-angular](https://github.com/xiaoming-01ai/descartes/blob/main/results/glove-100-angular_10_angular.png)
+
+glove-200-angular
+-----------------
+![glove-200-angular](https://github.com/xiaoming-01ai/descartes/blob/main/results/glove-200-angular_10_angular.png)
+
+sift-128-euclidean
+------------------
+![glove-100-angular]](https://github.com/xiaoming-01ai/descartes/blob/main/results/sift-128-euclidean_10_euclidean.png)
 
 
 ## 4. **Team members**
