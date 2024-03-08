@@ -93,17 +93,17 @@ sift-128-euclidean
 fashion-mnist-784-euclidean
 ---------------------------
 
-![fashion-mnist-784-euclidean](https://github.com/xiaoming-01ai/descartes/blob/main/results/fashion-mnist-784-euclidean.png)
+![fashion-mnist-784-euclidean](https://github.com/xiaoming-01ai/descartes/blob/main/results/fashion-mnist-784-euclidean_10_euclidean.png)
 
 nytimes-256-angular
 -------------------
 
-![nytimes-256-angular](https://github.com/xiaoming-01ai/descartes/blob/main/results/nytimes-256-angular.png)
+![nytimes-256-angular](https://github.com/xiaoming-01ai/descartes/blob/main/results/nytimes-256-angular_10_angular.png)
 
 gist-960-euclidean
 -------------------
 
-![gist-960-euclidean](https://github.com/xiaoming-01ai/descartes/blob/main/results/gist-960-euclidean.png)
+![gist-960-euclidean](https://github.com/xiaoming-01ai/descartes/blob/main/results/gist-960-euclidean_10_euclidean.png)
 
 
 ## 4. **Team members**
