@@ -19,17 +19,9 @@ sudo apt update && sudo apt install -y git cmake g++ python3 python3-setuptools 
 git clone https://github.com/xiaoming-01ai/descartes.git
 ```
 
-### 1.3 File copy & Set permissions
+### 1.3 Configuration & installation
 
 ```bash
-sudo cp descartes/lib/* /usr/local/lib/
-sudo chmod a+x descartes/*
-```
-
-### 1.4 Configuration & installation
-
-```bash
-ldconfig
 pip3 install descartes/py01ai-*-linux_x86_64.whl
 ```
 
@@ -66,8 +58,8 @@ X = fvecs_read("sift_base.fvecs")
 
 ```python
 index = py01ai.FNGIndex(metric="square_l2", dimension=dimension))
-index.init(count=1000000, M=32, S=1, L=200)
-index.add_vector(X)
+index.init(count=1000000, m=32, s=1, l=200)
+index.add_vector(input=X)
 ```
 
 ### 2.3 Search
