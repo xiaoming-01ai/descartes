@@ -73,7 +73,7 @@ print(results)
 glove-100-angular
 -----------------
 
-![glove-100-angular](https://github.com/xiaoming-01ai/descartes/master/results/glove-100-angular_10_angular.png)
+![glove-100-angular](https://github.com/xiaoming-01ai/descartes/blob/main/results/glove-100-angular_10_angular.png)
 
 
 ## 4. **Team members**
