@@ -69,6 +69,13 @@ results = index.search(query=v, topk=10)
 print(results)
 ```
 
-## 3. **Team members**
+## 3. **Performance**
+glove-100-angular
+-----------------
+
+![glove-100-angular](https://github.com/xiaoming-01ai/descartes/master/results/glove-100-angular.png)
+
+
+## 4. **Team members**
 The team members come from 01AI: Xiaoming Peng, Gaofei Wang
 
