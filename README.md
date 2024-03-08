@@ -89,7 +89,21 @@ glove-200-angular
 
 sift-128-euclidean
 ------------------
-![glove-100-angular]](https://github.com/xiaoming-01ai/descartes/blob/main/results/sift-128-euclidean_10_euclidean.png)
+![glove-100-angular](https://github.com/xiaoming-01ai/descartes/blob/main/results/sift-128-euclidean_10_euclidean.png)
+fashion-mnist-784-euclidean
+---------------------------
+
+![fashion-mnist-784-euclidean](https://github.com/xiaoming-01ai/descartes/blob/main/results/fashion-mnist-784-euclidean.png)
+
+nytimes-256-angular
+-------------------
+
+![nytimes-256-angular](https://github.com/xiaoming-01ai/descartes/blob/main/results/nytimes-256-angular.png)
+
+gist-960-euclidean
+-------------------
+
+![gist-960-euclidean](https://github.com/xiaoming-01ai/descartes/blob/main/results/gist-960-euclidean.png)
 
 
 ## 4. **Team members**
